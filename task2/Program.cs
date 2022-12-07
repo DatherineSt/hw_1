@@ -13,8 +13,10 @@ userNumber1 = Convert.ToInt32(Console.ReadLine());
 if(userNumber>userNumber1)
 {
     Console.WriteLine($"max = {userNumber}");
+    Console.WriteLine($"min = {userNumber1}");
 }
 else
 {
     Console.WriteLine($"max = {userNumber1}");
+    Console.WriteLine($"min = {userNumber}");
 }
