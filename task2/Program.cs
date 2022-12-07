@@ -12,9 +12,9 @@ userNumber = Convert.ToInt32(Console.ReadLine());
 userNumber1 = Convert.ToInt32(Console.ReadLine());
 if(userNumber>userNumber1)
 {
-    Console.WriteLine(userNumber);
+    Console.WriteLine($"max = {userNumber}");
 }
 else
 {
-    Console.WriteLine(userNumber1);
+    Console.WriteLine($"max = {userNumber1}");
 }
